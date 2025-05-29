@@ -26,7 +26,7 @@ predictive_maintenance_project/
 ├── presentation.py         # Презентация проекта с помощью reveal_slides
 ├── requirements.txt        # Все зависимости для запуска
 ├── README.md               # Этот файл
-└── video.mkv                # (опционально) Видео-демонстрация
+└── video.mp4                # (опционально) Видео-демонстрация
 ```
 
 ---
