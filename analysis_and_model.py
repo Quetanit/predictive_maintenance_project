@@ -155,11 +155,11 @@ def analysis_and_model_page():
         st.header("Предсказание по новым данным")
         with st.form("prediction_form"):
             product_type = st.selectbox("Тип продукта (L=0, M=1, H=2)", ['L', 'M', 'H'])
-            air_temp = st.number_input("Температура воздуха [K]", value=300.0)
-            proc_temp = st.number_input("Процессная температура [K]", value=310.0)
-            rot_speed = st.number_input("Скорость вращения [rpm]", value=1500)
-            torque = st.number_input("Крутящий момент [Nm]", value=40.0)
-            tool_wear = st.number_input("Износ инструмента [min]", value=0)
+            air_temp = st.number_input("Температура воздуха [K]", value=100.0)
+            proc_temp = st.number_input("Процессная температура [K]", value=150.0)
+            rot_speed = st.number_input("Скорость вращения [rpm]", value=1000)
+            torque = st.number_input("Крутящий момент [Nm]", value=100.0)
+            tool_wear = st.number_input("Износ инструмента [min]", value=30.0)
             submit = st.form_submit_button("Предсказать")
 
             if submit:
