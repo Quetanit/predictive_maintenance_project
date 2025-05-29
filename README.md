@@ -12,7 +12,7 @@
 Используется синтетический датасет [AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/dataset/601/predictive+maintenance+dataset), содержащий:
 
 - 10 000 записей
-- 14 признаков (температура, скорость, крутящий момент, износ и т.д.)
+- 14 признаков
 - Целевая переменная: `Machine failure` (0 — всё работает, 1 — произошёл сбой)
 
 ---
